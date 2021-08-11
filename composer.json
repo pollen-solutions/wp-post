@@ -1,0 +1,52 @@
+{
+  "name": "pollen-solutions/wp-post",
+  "description": "Pollen Solutions - Wordpress Post Component - Abstraction lawer of WP_Post object.",
+  "homepage": "https://www.presstify.com/pollen-solutions/wp-post/",
+  "keywords": [
+    "pollen-solutions",
+    "component",
+    "wordpress",
+    "post"
+  ],
+  "time": "2021-08-11",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jordy Manner",
+      "email": "jordy@presstify.com"
+    }
+  ],
+  "require": {
+    "php": "^7.4 || ^8.0",
+    "pollen-solutions/support": "^1.0",
+    "pollen-solutions/translation": "^1.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Pollen\\WpPost\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Pollen\\WpPost\\Test\\": "tests"
+    }
+  },
+  "suggest": {
+    "pollen-solutions/container" : "Pollen Solutions - Container Component - PSR-11 ready Dependencies Injection Container.",
+    "pollen-solutions/database" : "Pollen Solutions - Database Component - Database toolkit for PHP.",
+    "pollen-solutions/pagination": "Pollen Solutions - Pagination Component - Layer and utilities to paginate items in web applications.",
+    "pollen-solutions/wp-comment": "Pollen Solutions - Wordpress Comment Component - Abstraction lawer of WP_Comment object.",
+    "pollen-solutions/wp-term": "Pollen Solutions - Wordpress Term Component - Abstraction lawer of WP_Term object.",
+    "pollen-solutions/wp-user": "Pollen Solutions - Wordpress User Component - Abstraction lawer of WP_User object."
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "config": {
+    "optimize-autoloader": true,
+    "preferred-install": "dist",
+    "sort-packages": true
+  }
+}
